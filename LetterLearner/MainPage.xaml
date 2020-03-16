@@ -12,8 +12,10 @@
         <Binding Path="Main" Source="{StaticResource Locator}"></Binding>
     </Page.DataContext>
 
-    <Grid>
-        <TextBlock Text="{Binding HelloWorld}" FontSize="20" HorizontalAlignment="Center"
+    <Grid >
+    <StackPanel  VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock Text="{Binding CurrentLetter}" FontSize="95" HorizontalAlignment="Center"
                VerticalAlignment="Center"></TextBlock>
+    </StackPanel>
     </Grid>
 </Page>
